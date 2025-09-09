@@ -118,3 +118,19 @@ canvas {
   }
 }
 /* Chọn hiệu ứng */
+
+.account-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: white;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  padding: 8px 16px; /* tăng padding để chữ thoáng hơn */
+  border-radius: 6px; /* bo góc nhẹ */
+  font-size: 14px; /* chữ vừa phải */
+  color: #333; /* màu chữ */
+  text-decoration: none; /* bỏ gạch chân mặc định của <a> */
+  z-index: 999;
+}
